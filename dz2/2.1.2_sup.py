@@ -15,7 +15,7 @@ def sup(data1, data2):
     xList1, yList1 = efr(data1)
     xList2, yList2 = efr(data2)
     difXList = sorted(set(xList1).union(set(xList2)))
-    xList1.append(0);
+    xList1.append(0)
     xList2.append(0)
     i1, i2 = 0, 0
     difYList = []
